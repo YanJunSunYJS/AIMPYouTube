@@ -32,6 +32,7 @@ PlaylistName=播放列表名称（可选）
 Title=YouTube
 Account=YouTube 账号
 ConnectButton=用 Google 登录|登出
+DeveloperAccountButton=开发者
 General=常规
 MonitorURLs=监视添加的 URL
 MonitorUserPlaylists=监视用户播放列表
@@ -41,6 +42,22 @@ YoutubeDLTimeout=超时|秒
 YoutubeDLAlways=始终使用 youtube-dl
 YoutubeDLUpdate=更新
 YoutubeDLParameters=参数
+Log=日志记录
+DontShowErrors=不显示错误
+LogViewButton=查看日志
+
+[YouTube.YTAPI]
+Title=配置开发者账号
+Key=API 密钥
+ClientID=客户端 ID
+ClientSecret=客户端密钥
+HintNone=使用内置凭证
+HintSetKey=使用 API 密钥
+HintSetAll=使用 API 密钥和客户端
+HintMissingKey=缺失 API 密钥
+HintIncompleteOAuth=缺失客户端 ID 或密钥
+OK=确定
+Cancel=取消
 
 [YouTube.Playlists]
 Favorites=收藏
@@ -52,6 +69,6 @@ WatchLater=稍后观看
 Title=曲目排除
 Header=管理曲目排除
 ListHeader=曲目标题|持续时间
-Remove=从排除内移除
-RemoveAndAddToPlaylist=从排除内移除并添加到播放列表
+Remove=从排除中移除
+RemoveAndAddToPlaylist=从排除中移除并添加到播放列表
 OK=确定
